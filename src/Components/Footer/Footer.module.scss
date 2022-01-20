@@ -1,0 +1,61 @@
+.footer {
+  padding: 70px 0 70px 0;
+  background: url(../../img/bg5.jpg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  background-position: bottom;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.linkBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.25em;
+  min-height: 80px;
+  padding: 0 15px;
+  font-size: 0.875rem;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #999;
+  transition: 0.2s;
+}
+
+.link:hover,
+.link:focus {
+  transition: 0.2s;
+  color: rgb(26, 26, 26);
+}
+
+.titleFirst {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #788084;
+  text-align: center;
+  margin-top: 0;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  color: #788084;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.linkBtc {
+  text-decoration: none;
+  color: #e70;
+}
+
+.linkBtc:focus,
+.linkBtc:hover {
+  color: #1e87f0;
+  text-decoration: underline;
+}

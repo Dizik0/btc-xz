@@ -7,6 +7,7 @@ import Guarantee from './Components/Guarantee'
 import BuildPortfolio from './Components/BuildPortfolio'
 import Transactions from './Components/Transactions'
 import Cooperation from './Components/Cooperation'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <BuildPortfolio />
       <Transactions />
       <Cooperation />
+      <Footer />
     </div>
   )
 }
