@@ -4,6 +4,8 @@ import RunningLine from './Components/RunningLine'
 import FirstSection from './Components/FirstSection'
 import About from './Components/About'
 import Guarantee from './Components/Guarantee'
+import BuildPortfolio from './Components/BuildPortfolio'
+import Transactions from './Components/Transactions'
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <FirstSection />
       <About />
       <Guarantee />
+      <BuildPortfolio />
+      <Transactions />
     </div>
   )
 }

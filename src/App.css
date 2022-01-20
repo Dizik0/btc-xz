@@ -5,7 +5,6 @@ span,
 applet,
 object,
 iframe,
-h3,
 h4,
 h5,
 h6,
@@ -125,13 +124,4 @@ table {
 
 body {
   font-family: muli, sans-serif;
-}
-
-h2 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
 }

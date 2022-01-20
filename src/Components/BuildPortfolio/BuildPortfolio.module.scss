@@ -1,28 +1,23 @@
 @import '../../scss/module/scss.module.scss';
 
-.firstSection {
-  display: flex;
+.BuildPortfolio {
   padding-top: 70px;
   padding-bottom: 70px;
-  background: url(../../img/bg5.jpg);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  justify-content: center;
-  background-position: bottom;
-  min-width: 100%;
-  min-height: 100%;
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: space-between;
 }
 
-.mainTitle {
+.title {
+  font-size: 24px;
   font-weight: 800;
-  font-size: 42px;
   color: #37474f;
-  margin: 0;
-  margin-bottom: 20px;
 }
 
-.fSBlock {
+.img {
   width: 540px;
-  height: 240px;
+  height: 324px;
 }
 
 .button {

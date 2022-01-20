@@ -32,9 +32,10 @@
 .guarantee {
   padding-top: 70px;
   padding-bottom: 70px;
-  background: url(../../img/bg5.jpg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: url(../../img/bg.jpg);
   justify-content: center;
-  background-position: bottom;
+  background-position: center;
   min-width: 100%;
   min-height: 100%;
 }
@@ -81,7 +82,7 @@
   color: #788084;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .titleSvg {
@@ -91,4 +92,5 @@
   font-weight: 800;
   margin-top: 40px;
   text-align: center;
+  margin-bottom: 0;
 }

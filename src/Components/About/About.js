@@ -16,7 +16,7 @@ const About = () => {
           The best place to invest and exchange cryptocurrency today.
           <tr />
           <a href="/" className={style.link}>
-            Btc-ex.online
+            Btc-xz.online
           </a>{' '}
           is a cutting edge investment and exchange platform based in Australia.
           It was created in February 2018. We are strictly trading, mining with
@@ -24,7 +24,7 @@ const About = () => {
           buys signals from major exchanges.
           <tr /> The vision of{' '}
           <a href="/" className={style.link}>
-            Btc-ex.online
+            Btc-xz.online
           </a>{' '}
           is to build a strong alliance and permanent partnership with our
           investors; also leads them to financial independence.
