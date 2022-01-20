@@ -1,0 +1,94 @@
+@import '../../scss/module/scss.module.scss';
+.svgLightning {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-color: #ff9900;
+  display: block;
+  mask-repeat: no-repeat;
+  mask-image: url('../../img/svg/big-lightning-svgrepo-com.svg');
+}
+
+.svgLock {
+  mask-repeat: no-repeat;
+  height: 90px;
+  width: 90px;
+  margin: auto;
+  background-color: #ff9900;
+  display: block;
+  mask-image: url('../../img/svg/lock-svgrepo-com.svg');
+}
+
+.svgCheckMark {
+  mask-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-color: #ff9900;
+  display: block;
+  mask-image: url('../../img/svg/check-mark-black-outline-svgrepo-com.svg');
+}
+
+.guarantee {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: url(../../img/bg5.jpg);
+  justify-content: center;
+  background-position: bottom;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.guaranteeBigDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.guaranteeDiv {
+  width: 250px;
+  height: 265px;
+  border: 1px solid #e5e1e1;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 3px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+.mainTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+
+  color: #37474f;
+}
+
+.secondTitleGuarantee {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #788084;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.secondTitleGuaranteeLock {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #788084;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.titleSvg {
+  font-size: 130%;
+  color: #333;
+  line-height: 1.4;
+  font-weight: 800;
+  margin-top: 40px;
+  text-align: center;
+}
