@@ -2,7 +2,7 @@
 
 .about {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -51,4 +51,10 @@
 .link:hover {
   color: #1e87f0;
   text-decoration: underline;
+}
+
+.imgAbout {
+  display: block;
+  width: 500px;
+  height: 390px;
 }

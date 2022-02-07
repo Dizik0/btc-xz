@@ -1,9 +1,12 @@
 import style from './About.module.scss'
+import imgAbout from '../../img/BTC-mine.png'
 
 const About = () => {
   return (
     <div className={style.about}>
-      <div className={style.AboutBtcXz}></div>
+      <div className={style.AboutBtcXz}>
+        <img src={imgAbout} className={style.imgAbout} />
+      </div>
       <div className={style.AboutBtcXz}>
         <h2 className={style.mainTitle}>
           About
@@ -14,7 +17,7 @@ const About = () => {
         </h2>
         <p className={style.secondTitle}>
           The best place to invest and exchange cryptocurrency today.
-          <tr />
+          <br />
           <a href="/" className={style.link}>
             Btc-xz.online
           </a>{' '}
@@ -22,7 +25,7 @@ const About = () => {
           It was created in February 2018. We are strictly trading, mining with
           a lot of investment and exchange and assets in paid ads, Forex also
           buys signals from major exchanges.
-          <tr /> The vision of{' '}
+          <br /> The vision of{' '}
           <a href="/" className={style.link}>
             Btc-xz.online
           </a>{' '}

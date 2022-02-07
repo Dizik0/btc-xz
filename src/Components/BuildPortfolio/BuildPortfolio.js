@@ -10,17 +10,18 @@ const BuildPortfolio = () => {
             Btc-xz.online
           </a>{' '}
           is a full-featured investment platform for major digital assets &{' '}
-          <tr />
+          <br />
           cryptocurrencies, including Bitcoin, Ethereum, Bitcoin Cash, Litecoin
-          and <tr /> Dashcoin.
-          <tr />
+          and <br /> Dashcoin.
+          <br />
           <a href="/" className={style.link}>
             Btc-xz.online
           </a>{' '}
-          offers leveraged margin trading through a peer-to-peer funding <tr />{' '}
+          offers leveraged margin trading through a peer-to-peer funding <br />{' '}
           market, allowing users to securely trade with up to 3.3x leverage.{' '}
-          <tr /> We belive that everyone should have an unmetered access to
-          explore the <tr /> wonderful world of crypto with all of its benefits.
+          <br /> We belive that everyone should have an unmetered access to
+          explore the <br />
+          wonderful world of crypto with all of its benefits.
         </p>
         <button className={style.button}>SIGN UP</button>
       </div>
