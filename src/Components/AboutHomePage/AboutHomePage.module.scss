@@ -1,0 +1,60 @@
+@import '../../scss/module/scss.module.scss';
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.mainTitle {
+  font-weight: 800;
+  font-size: 32px;
+  color: #37474f;
+}
+
+.OrgBtc {
+  color: #ff9900;
+}
+
+.online {
+  font-size: 11px;
+}
+
+.AboutBtcXz {
+  width: 500px;
+  height: 390px;
+}
+
+.secondTitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #788084;
+}
+
+.button {
+  background-color: #f90;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-size: 11px;
+  padding: 12px 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 0.2s;
+  margin-top: 30px;
+}
+
+.link:focus,
+.link:hover {
+  color: #1e87f0;
+  text-decoration: underline;
+}
+
+.imgAbout {
+  display: block;
+  width: 500px;
+  height: 390px;
+}

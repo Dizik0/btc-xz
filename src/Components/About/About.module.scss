@@ -1,50 +1,29 @@
-@import '../../scss/module/scss.module.scss';
-
 .about {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .mainTitle {
   font-weight: 800;
   font-size: 32px;
   color: #37474f;
+  margin-top: 0px;
+  font-size: 2.625rem;
 }
 
-.OrgBtc {
-  color: #ff9900;
-}
-
-.online {
-  font-size: 11px;
-}
-
-.AboutBtcXz {
-  width: 500px;
-  height: 390px;
-}
-
-.secondTitle {
+.textAbout {
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   color: #788084;
+  margin-bottom: 20px;
 }
 
-.button {
-  background-color: #f90;
-  color: white;
-  text-align: center;
-  font-weight: 800;
-  font-size: 11px;
-  padding: 12px 22px;
-  border: none;
-  cursor: pointer;
-  border-radius: 7px;
-  transition: 0.2s;
-  margin-top: 30px;
+.link {
+  text-decoration: none;
+  color: #e70;
 }
 
 .link:focus,
@@ -53,8 +32,30 @@
   text-decoration: underline;
 }
 
-.imgAbout {
-  display: block;
-  width: 500px;
-  height: 390px;
+.secondTitle {
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #37474f;
+}
+
+.contact {
+  font-size: 15px;
+  line-height: 26px;
+  color: #788084;
+}
+
+.contactImg {
+  width: 520px;
+  height: 170px;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactBoxImg {
+  margin-right: 50px;
 }

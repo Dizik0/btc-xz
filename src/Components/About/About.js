@@ -1,38 +1,48 @@
 import style from './About.module.scss'
-import imgAbout from '../../img/BTC-mine.png'
+import contact from '../../img/contact.jpg'
 
 const About = () => {
   return (
     <div className={style.about}>
-      <div className={style.AboutBtcXz}>
-        <img src={imgAbout} className={style.imgAbout} />
-      </div>
-      <div className={style.AboutBtcXz}>
-        <h2 className={style.mainTitle}>
-          About
-          <b>
-            <span className={style.OrgBtc}> Btc</span>-Xz
-          </b>
-          <span className={style.online}>.online</span>
-        </h2>
-        <p className={style.secondTitle}>
-          The best place to invest and exchange cryptocurrency today.
+      <h1 className={style.mainTitle}>About btc-ex.org LTD</h1>
+      <p className={style.textAbout}>
+        Established in 2018 as the first cloud mining provider,{' '}
+        <a href="/" className={style.link}>
+          btc-ex.org
+        </a>{' '}
+        has become a multi-functional cryptocurrency exchange, trusted by over a
+        million users.
+      </p>
+      <p className={style.textAbout}>
+        Bit Trading offers cross-platform trading via website, mobile app,
+        WebSocket and REST API, providing access to high liquidity orderbook for
+        top currency pairs on <br /> the market. Instant Bitcoin buying and
+        selling is available via simplified bundle interface.
+      </p>
+      <p className={style.textAbout}>
+        The exchange has developed a multi-level account system with individual
+        approach to each customer, from Bitcoin beginners to institutional
+        traders. Worldwide <br /> coverage, multiple payment options, and 24/7
+        support are accompanied by time-proven platform stability that
+        guarantees safety of assets and data.
+      </p>
+
+      <div className={style.contactBox}>
+        <div>
+          <h2 className={style.secondTitle}>Contact Information</h2>
+          <b className={style.contact}>ADDRESS</b>
+          <p className={style.textAbout}>
+            61B Lindgren Esplanade West Marcia, KAS 2419
+          </p>
+          <b className={style.contact}>EMAIL</b>
           <br />
-          <a href="/" className={style.link}>
-            Btc-xz.online
-          </a>{' '}
-          is a cutting edge investment and exchange platform based in Australia.
-          It was created in February 2018. We are strictly trading, mining with
-          a lot of investment and exchange and assets in paid ads, Forex also
-          buys signals from major exchanges.
-          <br /> The vision of{' '}
-          <a href="/" className={style.link}>
-            Btc-xz.online
-          </a>{' '}
-          is to build a strong alliance and permanent partnership with our
-          investors; also leads them to financial independence.
-        </p>
-        <button className={style.button}>SIGN UP</button>
+          <a href="mailto:btc.xz.online@gmail.com" className={style.link}>
+            btc.xz.online@gmail.com
+          </a>
+        </div>
+        <div className={style.contactBoxImg}>
+          <img className={style.contactImg} alt="" src={contact} />
+        </div>
       </div>
     </div>
   )

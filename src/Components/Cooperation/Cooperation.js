@@ -9,16 +9,16 @@ const Cooperation = () => {
   return (
     <div className={style.cooperation}>
       <div className={style.partners}>
-        <img className={style.partnersPng} alt="" src={bitcoin}></img>
+        <img className={style.partnersPng} alt="" src={bitcoin} />
       </div>
       <div className={style.partners}>
-        <img className={style.partnersPng} alt="" src={blockchain}></img>
+        <img className={style.partnersPng} alt="" src={blockchain} />
       </div>
       <div className={style.partners}>
-        <img className={style.partnersPng} alt="" src={btcCom}></img>
+        <img className={style.partnersPng} alt="" src={btcCom} />
       </div>
       <div className={style.partners}>
-        <img className={style.partnersPng} alt="" src={comodo}></img>
+        <img className={style.partnersPng} alt="" src={comodo} />
       </div>
     </div>
   )
